@@ -11,9 +11,8 @@ brew install ffmpeg
 
 - Step Three: If the recorded video is in MP4 format, then you are good to go.
 
---3.1 chmod +x generateFrames.sh to make it executable. Now use as follows:
+--3.1 In terminal, RUN:
+chmod +x video2images.sh # make the Shell script executable.
 
---3.2 Create 5 images every second of video (ie every 200ms):
-
---In terminal, RUN: 
+--3.2 If you would like to create 5 images every second of video (ie every 200ms), then in terminal, RUN: 
 ./video2images.sh /home/user/directoryOfVideos 5
