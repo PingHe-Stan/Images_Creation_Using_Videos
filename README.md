@@ -5,14 +5,15 @@
 
 - Step One: Download critical dependencies for video manipulation
 If you are using Mac, please type the following command in the terminal:
-brew install ffmpeg
+
+__brew install ffmpeg__
 
 - Step Two: After the successful installation, run the following command for video batch conversion from MOV to MP4 if you are using iPhone to make the recording.
 
 - Step Three: If the recorded video is in MP4 format, then you are good to go.
 
 --3.1 In terminal, RUN:
-chmod +x video2images.sh # make the Shell script executable.
+__chmod +x video2images.sh # make the Shell script executable.__
 
 --3.2 If you would like to create 5 images every second of video (ie every 200ms), then in terminal, RUN: 
-./video2images.sh /home/user/directoryOfVideos 5
+__./video2images.sh /home/user/directoryOfVideos 5__
