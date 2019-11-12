@@ -11,7 +11,7 @@ FILE_DIR="$1"
 #Step 1: Create MP4 videos from MOV and Place the original MOV files into the parent directory.
 cd $FILE_DIR
 mkdir dir_MOV
-for f in `ls |grep .MOV`
+for file in `ls |grep .MOV`
 do
 ffmpeg -i "$file" -vcodec copy -acodec copy "${file%.*}".MP4
 done
